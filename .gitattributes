@@ -1,0 +1,19 @@
+# Artefacto publicado (build de Next.js). Se regenera en cada deploy con
+# `npm run deploy:pages`, que force-pushea el contenido de out/.
+#
+# Se normaliza a LF para que `git status` no se llene de ruido CRLF entre
+# deploys. El propio deployPages.js escribe este mismo fichero dentro de out/
+# y renormaliza antes de commitear, así que el resultado es estable.
+
+* text=auto eol=lf
+
+# Binarios: nunca tocar.
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ico binary
