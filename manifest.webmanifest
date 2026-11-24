@@ -1,0 +1,39 @@
+{
+  "name": "Quiz Practice",
+  "short_name": "Quiz",
+  "description": "Exámenes y tarjetas de estudio: GCP, Machine Learning, Databricks y fundamentos.",
+  "id": "/quiz-web-pages/",
+  "start_url": "/quiz-web-pages/",
+  "scope": "/quiz-web-pages/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0d0d0d",
+  "theme_color": "#10b981",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "/quiz-web-pages/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/quiz-web-pages/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/quiz-web-pages/icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/quiz-web-pages/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
